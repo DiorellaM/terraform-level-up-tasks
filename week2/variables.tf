@@ -42,7 +42,7 @@ variable "public_subnets" {
 }
 
 variable "numberOfInstances" {
-  description = "Número de máquinas necesarias para cada entorno"
+  description = "number of vms needed"
   type        = map(number)
   default = {
     dev  = 1
